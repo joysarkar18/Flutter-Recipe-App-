@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        canvasColor: Color.fromARGB(255, 226, 225, 225),
+        primarySwatch: Colors.lightGreen,
       ),
       home: const RecipeList(),
     );

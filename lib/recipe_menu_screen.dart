@@ -12,11 +12,13 @@ class RecipeList extends StatelessWidget {
       body: GridView.count(
         primary: false,
         padding: const EdgeInsets.all(20),
-        crossAxisSpacing: 10,
-        mainAxisSpacing: 10,
+        crossAxisSpacing: 15,
+        childAspectRatio: 4 / 3,
+        mainAxisSpacing: 15,
         crossAxisCount: 2,
-        children:
-            DUMMY_LIST.map((e) => RecipeItem(e.color, e.categoryName)).toList(),
+        children: DUMMY_LIST
+            .map((e) => RecipeItem(e.color, e.categoryName, e.url))
+            .toList(),
       ),
     );
   }
