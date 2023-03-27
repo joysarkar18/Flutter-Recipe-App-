@@ -3,7 +3,7 @@ import 'package:recipe_app/modules/recipe_category_list.dart';
 
 List<Category> DUMMY_LIST = [
   Category("c1", "Indian", Colors.green,
-      "https://sundayguardianlive.com/wp-content/uploads/2022/12/Indian-Cuisine-Fifth-Best-In-The-World.jpg"),
+      "https://www.rewardsnetwork.com/wp-content/uploads/2016/12/IndianFood_Main.jpg"),
   Category("c1", "Italian", Colors.green,
       "https://www.tastingtable.com/img/gallery/20-italian-dishes-you-need-to-try-at-least-once/l-intro-1643403830.jpg"),
   Category("c1", "Chinese", Colors.green,

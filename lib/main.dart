@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:recipe_app/food_screen.dart';
+import 'package:recipe_app/tab_bar.dart';
 import './recipe_menu_screen.dart';
 
 void main() {
@@ -13,10 +15,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        canvasColor: Color.fromARGB(255, 226, 225, 225),
+        fontFamily: "Kanit",
+        canvasColor: const Color.fromARGB(255, 226, 225, 225),
         primarySwatch: Colors.lightGreen,
       ),
-      home: const RecipeList(),
+      initialRoute: "/",
+      routes: {
+        "/": (context) => TabScreen(),
+        "/food": (context) => FoodList(),
+      },
     );
   }
 }
