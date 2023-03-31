@@ -29,17 +29,32 @@ class _TabScreenState extends State<TabScreen> {
                 decoration: BoxDecoration(
                   color: Colors.lightGreen,
                 ),
-                child: Center(child: Text('Drawer Header')),
+                child: Container(
+                    alignment: Alignment.center,
+                    margin: EdgeInsets.only(top: 34),
+                    child: Text('Recipe Menu', style: TextStyle(fontSize: 24))),
               ),
               ListTile(
-                title: const Text('Item 1'),
+                leading: Icon(Icons.category),
+                title: const Text('Categories', style: TextStyle(fontSize: 24)),
                 onTap: () {
                   // Update the state of the app.
+                  Navigator.pushReplacementNamed(context, "/");
                   // ...
                 },
               ),
               ListTile(
-                title: const Text('Item 2'),
+                leading: Icon(Icons.filter_list),
+                title: const Text('Filter', style: TextStyle(fontSize: 24)),
+                onTap: () {
+                  // Update the state of the app.
+                  Navigator.pushNamed(context, "/filter");
+                  // ...
+                },
+              ),
+              ListTile(
+                leading: Icon(Icons.exit_to_app),
+                title: const Text('About', style: TextStyle(fontSize: 24)),
                 onTap: () {
                   // Update the state of the app.
                   // ...
@@ -50,7 +65,7 @@ class _TabScreenState extends State<TabScreen> {
         ),
         appBar: AppBar(
           title: Text("Recipe App"),
-          bottom: TabBar(tabs: [
+          bottom: const TabBar(tabs: [
             Tab(
               child: Icon(Icons.category),
             ),
@@ -61,7 +76,7 @@ class _TabScreenState extends State<TabScreen> {
         ),
         body: TabBarView(children: [
           RecipeList(),
-          Fav(),
+          FavScreen(),
         ]),
       ),
     );
