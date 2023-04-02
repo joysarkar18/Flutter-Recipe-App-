@@ -64,7 +64,7 @@ class _TabScreenState extends State<TabScreen> {
           ),
         ),
         appBar: AppBar(
-          title: Text("Recipe App"),
+          title: Text("Joy's Recipe App"),
           bottom: const TabBar(tabs: [
             Tab(
               child: Icon(Icons.category),

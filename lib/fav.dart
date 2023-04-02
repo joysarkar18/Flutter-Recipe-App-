@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
 import 'package:recipe_app/dummy_list.dart';
+import 'package:recipe_app/recipe_screen.dart';
 
 class Fav extends StatefulWidget {
   final String id;
@@ -60,6 +61,14 @@ class _FavState extends State<Fav> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   InkWell(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => RecipeScreen(
+                                title: widget.title, recipe: widget.recipe),
+                          ));
+                    },
                     child: Icon(Icons.list_alt),
                   ),
                   InkWell(

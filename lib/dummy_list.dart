@@ -98,13 +98,106 @@ Map<String, List<Food>> DUMMY_FOOD = {
     Food(
         id: "i1",
         title: "biryani",
-        recipe: "",
+        recipe: '''Ingredients:
+
+For the rice:
+
+    2 cups basmati rice, soaked in cold water for 30 minutes
+    4 cups water
+    1 cinnamon stick
+    3 green cardamom pods
+    1 black cardamom pod
+    2 cloves
+    1 bay leaf
+    1 teaspoon salt
+
+For the chicken:
+
+    1 lb boneless, skinless chicken thighs, cut into bite-sized pieces
+    1 cup plain yogurt
+    2 tablespoons vegetable oil
+    2 teaspoons cumin seeds
+    2 teaspoons coriander seeds
+    1 teaspoon fennel seeds
+    1 teaspoon ground turmeric
+    1 teaspoon ground cumin
+    1 teaspoon paprika
+    1 teaspoon garam masala
+    1 teaspoon salt
+    1 onion, thinly sliced
+    4 garlic cloves, minced
+    1 inch ginger, grated
+    2 green chilies, slit
+
+For assembly:
+
+    1/2 cup fried onions
+    1/4 cup chopped fresh cilantro
+    1/4 cup chopped fresh mint
+    Juice of 1 lemon
+
+Instructions:
+
+    In a large pot, bring 4 cups of water to a boil. Add the soaked rice, cinnamon stick, green cardamom pods, black cardamom pod, cloves, bay leaf, and salt. Reduce the heat to low and cover the pot with a tight-fitting lid. Cook for 10-12 minutes, until the rice is tender and fluffy.
+
+    In a large bowl, mix together the yogurt, vegetable oil, cumin seeds, coriander seeds, fennel seeds, turmeric, ground cumin, paprika, garam masala, and salt. Add the chicken pieces and mix well to coat. Marinate for at least 1 hour or up to overnight in the refrigerator.
+
+    In a large skillet or Dutch oven, heat 2 tablespoons of oil over medium heat. Add the sliced onions and cook until softened and lightly browned, about 5-7 minutes. Add the garlic, ginger, and green chilies, and cook for another 2 minutes.
+
+    Add the marinated chicken to the skillet and cook for 5-7 minutes, stirring occasionally, until the chicken is browned on all sides.
+
+    Preheat the oven to 350°F.
+
+    In a large baking dish, layer half of the cooked rice on the bottom. Top with the cooked chicken and its sauce. Sprinkle with half of the fried onions, cilantro, and mint. Add the remaining rice on top, and sprinkle with the remaining fried onions, cilantro, and mint.
+
+    Cover the dish with foil and bake for 20-25 minutes, until heated through.
+
+    Remove the foil and squeeze the lemon juice over the top of the biryani. Serve hot, garnished with additional cilantro and mint, if desired.''',
         url:
             "https://www.licious.in/blog/wp-content/uploads/2022/06/kolkata-biryani.jpg"),
     Food(
         id: "i2",
         title: "Fish Curry",
-        recipe: "",
+        recipe: '''Ingredients:
+
+    1 lb fish fillets (tilapia, cod, or any other white fish)
+    2 tablespoons vegetable oil
+    1 onion, finely chopped
+    2 garlic cloves, minced
+    1-inch ginger, grated
+    2 green chilies, slit
+    1 teaspoon ground turmeric
+    1 teaspoon ground cumin
+    1 teaspoon ground coriander
+    1 teaspoon chili powder
+    1 teaspoon paprika
+    1 teaspoon salt
+    1 can (14 oz) diced tomatoes
+    1 can (13.5 oz) coconut milk
+    1 tablespoon tamarind paste
+    1 tablespoon chopped fresh cilantro
+
+Instructions:
+
+    Cut the fish fillets into bite-sized pieces and set aside.
+
+    In a large skillet or Dutch oven, heat the vegetable oil over medium heat. Add the chopped onion and cook until softened and lightly browned, about 5-7 minutes.
+
+    Add the minced garlic, grated ginger, and green chilies to the skillet, and cook for another 2-3 minutes until fragrant.
+
+    Add the ground turmeric, cumin, coriander, chili powder, paprika, and salt to the skillet, and stir well to combine with the onion mixture.
+
+    Pour in the diced tomatoes and coconut milk, and stir to combine. Bring the mixture to a simmer.
+
+    Add the tamarind paste to the skillet, and stir well to combine.
+
+    Add the fish pieces to the skillet, and gently stir to coat with the sauce.
+
+    Cover the skillet and simmer for 10-15 minutes, or until the fish is cooked through and the sauce has thickened.
+
+    Garnish the fish curry with chopped cilantro, and serve hot with steamed rice or naan bread.
+
+Enjoy your delicious and spicy fish curry!''',
         url:
             "https://spiceeats.com/wp-content/uploads/2020/07/Fish-Masala.jpg"),
     Food(

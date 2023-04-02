@@ -5,6 +5,7 @@ import 'package:recipe_app/dummy_list.dart';
 import 'package:recipe_app/fav.dart';
 import 'package:recipe_app/food.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:recipe_app/recipe_screen.dart';
 
 class FoodRecipe extends StatefulWidget {
   final String id;
@@ -63,6 +64,14 @@ class _FoodRecipeState extends State<FoodRecipe> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   InkWell(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => RecipeScreen(
+                                title: widget.title, recipe: widget.recipe),
+                          ));
+                    },
                     child: Icon(Icons.list_alt),
                   ),
                   InkWell(
