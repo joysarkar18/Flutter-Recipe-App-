@@ -1,6 +1,6 @@
 # recipe_app
 
-A new Flutter project.
+This is a learing purpose project
 
 ## Getting Started
 
